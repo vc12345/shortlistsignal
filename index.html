@@ -1,6 +1,17 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HFSP3WDZ5B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HFSP3WDZ5B');
+</script>
+    
     <title>Shortlist Signal</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -155,7 +166,15 @@
                 <!-- CTA Button -->
                 <ul id="buttons01" class="buttons-component instance-1">
                     <li>
-                        <a href="https://tally.so/r/QK1oPl" class="n01" role="button">Add Your Proof (2 Minutes)</a>
+                        <a href="https://tally.so/r/QK1oPl" 
+                            class="n01" 
+                            role="button"
+                            onclick="gtag('event', 'cta_click', {
+                                event_category: 'CTA',
+                                event_label: 'Tally Form - Add Your Proof'
+                        });"
+                    >
+                            Add Your Proof (2 Minutes)</a>
                     </li>
                 </ul>
                 

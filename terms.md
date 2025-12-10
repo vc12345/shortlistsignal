@@ -11,5 +11,3 @@ Last updated: 9 December 2025
 That’s literally it.
 
 Questions → contact@shortlistsignal.com
-
-— V Chung, Founder

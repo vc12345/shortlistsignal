@@ -30,6 +30,4 @@ Security
 Data is stored encrypted in the EU/UK. Only the founder has access.
 
 Questions  
-Email contact@shortlistsignal.com – I (the founder) personally read every message.
-
-— V Chung, Founder, ShortlistSignal.com
+Email contact@shortlistsignal.com

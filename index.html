@@ -327,6 +327,12 @@ You've advanced deep in real hiring processes—past initial screens, through te
         .buttons-component > li > a {align-items: center;justify-content: center;max-width: 100%;text-align: center;text-decoration: none;vertical-align: middle;white-space: nowrap;}
         .buttons-component.instance-1 {gap: 0.75rem;flex-direction: row;flex-wrap: wrap;}
         .buttons-component.instance-1 > li > a {display: inline-block;width: 25rem;height: 4rem;line-height: 4rem;padding: 0 0.5rem;vertical-align: middle;font-family: 'Source Sans Pro', sans-serif;font-size: 1.3em;font-weight: 400;border-radius: 3rem;direction: var(--site-language-direction);overflow: hidden;text-overflow: ellipsis;background-color: #E35200;color: #FFFFFF;transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;}
+        .buttons-component.instance-1 > li > a {
+    height: auto !important;           /* Allow button to grow */
+    padding: 1rem 1.5rem !important;   /* More comfortable padding */
+    line-height: 1.4 !important;       /* Spacing for two lines */
+    white-space: normal !important;    /* Allow wrapping */
+}
         .divider-component {align-items: center;border: 0;display: flex;justify-content: var(--flex-alignment);min-height: 1rem;padding: 0;position: relative;width: 100%;}
         .divider-component::before {content: '';}
         .divider-component.instance-1::before {width: 100%;background-color: rgba(255,255,255,0.627);height: 1px;border-radius: 0px;}
@@ -421,13 +427,12 @@ You've advanced deep in real hiring processes—past initial screens, through te
                     Get discovered by recruiters desperate for verified candidates who won't waste their time.</span>
                     <span class="p"></span>
                     <span class="p"><strong>Why now?</strong></span>
-                    <div class="bullet-item">
-                        <span class="p">The noise is only getting worse.</span>
-                        <span class="p">Already 100+ legit candidates signalling.</span>
-                        <span class="p">Privacy-first: Anonymized & secure, no data shared without consent</span>
-                        <span class="p">Free forever for candidates.</span>
-                        <span class="p">Built by ex-Totaljobs/Stepstone/Appcast analysts.</span>
-                    </div>
+                    <span class="p"><strong>Why now?</strong></span>
+                    <span class="p bullet">The noise is only getting worse.</span>
+                    <span class="p bullet">Already 100+ legit candidates signalling.</span>
+                    <span class="p bullet">Privacy-first: Anonymized & secure, no data shared without consent</span>
+                    <span class="p bullet">Free forever for candidates.</span>
+                    <span class="p bullet">Built by ex-Totaljobs/Stepstone/Appcast analysts.</span>
                 </p>
                
                 <!-- CTA Button -->

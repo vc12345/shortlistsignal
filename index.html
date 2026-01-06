@@ -302,7 +302,7 @@ You've advanced deep in real hiring processes—past initial screens, through te
         .text-component.instance-1 a {text-decoration: underline;}
         .text-component.instance-1 a:hover {text-decoration: none;}
         .text-component.instance-1 span.p:nth-child(n + 2) {margin-top: 1rem;}
-        .text-component.instance-2 {color: rgba(255,255,255,0.627);font-family: 'Source Sans Pro', sans-serif;font-size: 1.125em;line-height: 1.5;font-weight: 400;}
+        .text-component.instance-2 {color: rgba(255,255,255,0.85);font-family: 'Source Sans Pro', sans-serif;font-size: 1.125em;line-height: 1.5;font-weight: 400;}
         .text-component.instance-2 a {text-decoration: underline;}
         .text-component.instance-2 a:hover {text-decoration: none;}
         .text-component.instance-2 span.p:nth-child(n + 2) {margin-top: 1rem;}
@@ -326,12 +326,14 @@ You've advanced deep in real hiring processes—past initial screens, through te
         .buttons-component > li {max-width: 100%;text-align: var(--alignment);}
         .buttons-component > li > a {align-items: center;justify-content: center;max-width: 100%;text-align: center;text-decoration: none;vertical-align: middle;white-space: nowrap;}
         .buttons-component.instance-1 {gap: 0.75rem;flex-direction: row;flex-wrap: wrap;}
-        .buttons-component.instance-1 > li > a {display: inline-block;width: 25rem;height: 4rem;line-height: 4rem;padding: 0 0.5rem;vertical-align: middle;font-family: 'Source Sans Pro', sans-serif;font-size: 1.5em;font-weight: 400;border-radius: 3rem;direction: var(--site-language-direction);overflow: hidden;text-overflow: ellipsis;background-color: #E35200;color: #FFFFFF;transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;}
+        .buttons-component.instance-1 > li > a {display: inline-block;width: 25rem;height: 4rem;line-height: 4rem;padding: 0 0.5rem;vertical-align: middle;font-family: 'Source Sans Pro', sans-serif;font-size: 1.3em;font-weight: 400;border-radius: 3rem;direction: var(--site-language-direction);overflow: hidden;text-overflow: ellipsis;background-color: #E35200;color: #FFFFFF;transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;}
         .divider-component {align-items: center;border: 0;display: flex;justify-content: var(--flex-alignment);min-height: 1rem;padding: 0;position: relative;width: 100%;}
         .divider-component::before {content: '';}
         .divider-component.instance-1::before {width: 100%;background-color: rgba(255,255,255,0.627);height: 1px;border-radius: 0px;}
         .divider-component.instance-2::before {width: 100%;background-color: rgba(255,255,255,0.627);height: 1px;border-radius: 0px;}
         .footer {font-family: 'Source Sans Pro', sans-serif;}
+        .bullet-list span.p {position: relative; padding-left: 1.5em;}
+        .bullet-list span.p:before {content: "•"; position: absolute; left: 0; color: #FFFFFF; font-weight: bold; font-size: 1.2em;}
         li {margin-top: 0.75rem;}
        
         @media (max-width: 1680px) {html {font-size: 13pt;}}
@@ -397,20 +399,22 @@ You've advanced deep in real hiring processes—past initial screens, through te
                 <p id="text02" class="text-component instance-2">
                     <span class="p">Recruiters are buried in AI-generated, buzzword-stuffed resumes that look perfect but collapse in the first human screen.</span>
                     <span class="p"></span>
-                    <span class="p">You're legit.</span>
-                    <span class="p">You've advanced deep in real hiring processes—past initial screens, through technical rounds, maybe even to finals.</span>
-                    <span class="p">Don't waste that progress.</span>
-                    <span class="p">It's proof you're not one of the fakes.</span>
+                    <span class="p">You're legit.<br>
+                    You've advanced deep in real hiring processes—past initial screens, through technical rounds, maybe even to finals.</span>
+                    <span class="p">Don't waste that progress.<br>
+                    It's proof you're not one of the fakes.</span>
                     <span class="p"></span>
-                    <span class="p">Submit your signal in 30 seconds (no proof required yet—we'll verify later if you want priority).</span>
-                    <span class="p">Get discovered by recruiters desperate for verified candidates who won't waste their time.</span>
+                    <span class="p">Submit your signal in 30 seconds (no proof required yet—we'll verify later if you want priority).<br>
+                    Get discovered by recruiters desperate for verified candidates who won't waste their time.</span>
                     <span class="p"></span>
                     <span class="p"><strong>Why now?</strong></span>
-                    <span class="p">- The noise is only getting worse.</span>
-                    <span class="p">- Already 100+ legit candidates signalling.</span>
-                    <span class="p">- Privacy-first: Anonymized & secure, no data shared without consent</span>
-                    <span class="p">- Free forever for candidates.</span>
-                    <span class="p">- Built by ex-Totaljobs/Stepstone/Appcast analysts.</span>
+                    <div class="bullet-list">
+                        <span class="p">The noise is only getting worse.</span>
+                        <span class="p">Already 100+ legit candidates signalling.</span>
+                        <span class="p">Privacy-first: Anonymized & secure, no data shared without consent</span>
+                        <span class="p">Free forever for candidates.</span>
+                        <span class="p">Built by ex-Totaljobs/Stepstone/Appcast analysts.</span>
+                    </div>
                 </p>
                
                 <!-- CTA Button -->
